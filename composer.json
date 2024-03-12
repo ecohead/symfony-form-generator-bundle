@@ -1,0 +1,28 @@
+{
+  "name": "ecohead/symfony-form-creator-bundle",
+  "type": "symfony-bundle",
+  "version": "0.0.1",
+  "description": "A set of methods to create form types with chained methods instead of plain arrays.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aureldvx",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "symfony/http-kernel": "^7.0",
+    "symfony/form": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ecohead\\SymfonyFormCreatorBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ecohead\\SymfonyFormCreatorBundle\\Tests\\": "tests/"
+    }
+  }
+}
