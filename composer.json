@@ -1,28 +1,36 @@
 {
-  "name": "ecohead/symfony-form-creator-bundle",
-  "type": "symfony-bundle",
-  "version": "0.0.1",
-  "description": "A set of methods to create form types with chained methods instead of plain arrays.",
-  "minimum-stability": "stable",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "aureldvx",
-      "email": "email@example.com"
+    "name": "ecohead/symfony-form-generator-bundle",
+    "type": "symfony-bundle",
+    "description": "A set of methods to create form types with chained methods instead of plain arrays.",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aureldvx",
+            "email": "opensource@aureldvx.net"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-intl": "*",
+        "symfony/http-kernel": "^7.0",
+        "symfony/form": "^7.0",
+        "symfony/validator": "^7.0",
+        "doctrine/orm": "^3.1",
+        "symfony/security-bundle": "^7.0",
+        "prinsfrank/standards": "^3.8",
+        "vich/uploader-bundle": "^2.3",
+        "nesbot/carbon": "^3.1",
+        "symfony/doctrine-bridge": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecohead\\FormGeneratorBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ecohead\\FormGeneratorBundle\\Tests\\": "tests/"
+        }
     }
-  ],
-  "require": {
-    "symfony/http-kernel": "^7.0",
-    "symfony/form": "^7.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Ecohead\\SymfonyFormCreatorBundle\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Ecohead\\SymfonyFormCreatorBundle\\Tests\\": "tests/"
-    }
-  }
 }

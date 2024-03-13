@@ -9,7 +9,7 @@ RUN curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.deb.sh' | b
 
 # Install required dependencies
 RUN chmod +x /usr/local/bin/install-php-extensions; \
-  install-php-extensions @composer;
+  install-php-extensions intl @composer;
 
 # Copy app files from the app directory.
 COPY ./ /var/www/html
