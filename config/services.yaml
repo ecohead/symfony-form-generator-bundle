@@ -1,0 +1,7 @@
+services:
+  ecohead.form_generator.form_type_field_extension:
+    class: Ecohead\FormGeneratorBundle\Extension\FormTypeFieldExtension
+    tags: ['form.type_extension']
+
+  Ecohead\FormGeneratorBundle\Extension\FormTypeFieldExtension: '@ecohead.form_generator.form_type_field_extension'
+
