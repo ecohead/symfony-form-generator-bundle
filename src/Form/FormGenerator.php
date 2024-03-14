@@ -7,7 +7,7 @@ namespace Ecohead\FormGeneratorBundle\Form;
 use Symfony\Component\Form\FormBuilderInterface;
 use Ecohead\FormGeneratorBundle\Form\Field\AbstractField;
 
-final readonly class FormCreator
+final readonly class FormGenerator
 {
     private FormBuilderInterface $formBuilder;
 
