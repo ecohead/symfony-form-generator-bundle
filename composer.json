@@ -22,7 +22,9 @@
         "symfony/validator": "^7.0",
         "doctrine/orm": "^3.1",
         "symfony/security-bundle": "^7.0",
+        "prinsfrank/standards": "^3.8",
         "vich/uploader-bundle": "^2.3",
+        "nesbot/carbon": "^3.1",
         "symfony/doctrine-bridge": "^7.0"
     },
     "autoload": {
