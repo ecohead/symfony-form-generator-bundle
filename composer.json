@@ -12,6 +12,10 @@
     ],
     "require": {
         "php": "^8.2",
+        "prinsfrank/standards": "^3.8",
+        "nesbot/carbon": "^3.1"
+    },
+    "require-dev": {
         "ext-intl": "*",
         "symfony/http-kernel": "^7.0",
         "symfony/form": "^7.0",
